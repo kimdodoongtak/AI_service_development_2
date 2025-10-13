@@ -285,6 +285,3 @@ def predict_temperature(hr_mean, hrv_sdnn, bmi, mean_sa02, gender):
 
 ---
 
-*보고서 작성일: 2024년 12월*  
-*모델 버전: v1.0*  
-*작성자: AI Assistant*
