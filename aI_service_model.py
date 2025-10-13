@@ -167,7 +167,7 @@ print(f"  CV 개별 점수: {cv_scores}")
 print("\n📊 분류 성능 평가")
 
 # 온도 분류 함수
-def classify_temperature(temp, cold_threshold=32.0, hot_threshold=35.0):
+def classify_temperature(temp, cold_threshold=33.0, hot_threshold=35.0):
     if temp < cold_threshold:
         return "냉기"
     elif temp > hot_threshold:
@@ -180,8 +180,8 @@ y_valid_class = [classify_temperature(temp) for temp in y_valid]
 y_pred_class = [classify_temperature(temp) for temp in y_pred_ensemble]
 
 print(f"온도 분류 임계값:")
-print(f"  냉기: < 32.0°C")
-print(f"  적정: 32.0°C ~ 35.0°C")
+print(f"  냉기: < 33.0°C")
+print(f"  적정: 33.0°C ~ 35.0°C")
 print(f"  더위: > 35.0°C")
 
 print("\n분류 성능 리포트:")
@@ -279,3 +279,4 @@ print("- ai_thermal_model.pkl: 학습된 모델")
 print("- predict_function.pkl: 예측 함수")
 
 print(f"\n🏆 AI 서비스용 체온 예측 모델 완성! 🎉")
+
