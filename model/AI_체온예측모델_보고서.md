@@ -328,6 +328,4 @@ def predict_temperature_with_age(hr_mean, hrv_sdnn, bmi, mean_sa02, gender, age)
 - **모델 저장**: joblib, pickle
 - **시각화**: matplotlib, seaborn
 
----
-
 
