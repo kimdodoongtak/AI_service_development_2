@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_orange">#FFFF9800</color>
+    <color name="background_light">#FFF5F5F5</color>
+    <color name="black">#FF000000</color>
+    <color name="heart_rate_red">#FFF44336</color>
+    <color name="ic_launcher_background">#FF2196F3</color>
+    <color name="ic_launcher_foreground">#FFFFFFFF</color>
+    <color name="primary_blue">#FF2196F3</color>
+    <color name="primary_blue_dark">#FF1976D2</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="temperature_cold">#FF2196F3</color>
+    <color name="temperature_comfortable">#FF4CAF50</color>
+    <color name="temperature_hot">#FFFF5722</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="air_conditioner">에어컨</string>
+    <string name="app_name">AI Service Poseul</string>
+    <string name="current_temperature">현재 온도</string>
+    <string name="device_offline">오프라인</string>
+    <string name="device_online">온라인</string>
+    <string name="device_status">기기 상태</string>
+    <string name="error">오류가 발생했습니다</string>
+    <string name="heart_rate_bpm">BPM</string>
+    <string name="heart_rate_title">심박수</string>
+    <string name="iot_title">IOT 기기 상태</string>
+    <string name="loading">로딩 중...</string>
+    <string name="login_button">로그인</string>
+    <string name="logout_button">로그아웃</string>
+    <string name="nav_home">홈</string>
+    <string name="nav_iot">IOT기기</string>
+    <string name="nav_user">사용자</string>
+    <string name="retrain_button">모델 재학습</string>
+    <string name="retry">다시 시도</string>
+    <string name="target_temperature">설정 온도</string>
+    <string name="temperature_cold">추움</string>
+    <string name="temperature_comfortable">쾌적함</string>
+    <string name="temperature_hot">더움</string>
+    <string name="temperature_title">현재 온도</string>
+    <string name="user_email">이메일</string>
+    <string name="user_id">사용자 ID</string>
+    <string name="user_info_title">사용자 정보</string>
+    <string name="user_name">이름</string>
+    <style name="Theme.AIServicePoseul" parent="Theme.Material3.DayNight">
+        
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+</resources>

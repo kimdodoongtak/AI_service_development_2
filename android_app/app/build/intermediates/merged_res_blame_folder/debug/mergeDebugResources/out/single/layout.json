@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.aiservice.poseul.app-mergeDebugResources-48:/layout/fragment_home.xml",
+        "source": "com.aiservice.poseul.app-main-51:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.aiservice.poseul.app-mergeDebugResources-48:/layout/fragment_user.xml",
+        "source": "com.aiservice.poseul.app-main-51:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "com.aiservice.poseul.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.aiservice.poseul.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.aiservice.poseul.app-mergeDebugResources-48:/layout/fragment_iot.xml",
+        "source": "com.aiservice.poseul.app-main-51:/layout/fragment_iot.xml"
+    }
+]
